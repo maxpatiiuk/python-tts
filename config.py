@@ -1,0 +1,51 @@
+source_file_location = '/Users/mambo/Downloads/TEMP'
+destination_txt_file_location = 'result.txt'
+destination_mp3_file_location = '/Users/mambo/Downloads/result.mp3'
+
+line_separator = '\n'
+initial_page_separator = '...'
+end_page_separator = '...'
+
+remove_unicode = True
+strip_html = True
+remove_similar_pages = True
+remove_repeated_lines = True
+add_dots_at_the_end_of_the_lines = True
+
+speaking_voice = 5  # run find_voice.py to find the voice you like
+speaking_rate = 400  # default is 200
+speaking_volume = 1.0  # default is 1.0. the range of possible values: [0.0,1.0]
+
+# run find_common_lines.py to see the list of the commonly used lines that you want to exclude
+removal_list = [
+    'Advertisement',
+    'RECOMMENDED VIDEOS FOR YOU...',
+    'Image for post',
+    'Quincy Larson',
+    'Eric Leung',
+    'Karl Hughes',
+    'Sam Williams',
+    'Jason Evangelho',
+    'Milecia McGregor',
+    'A version of this article appeared in the “Musk Reads” newsletter. Sign up for free here.',
+    'Got any comments or queries? Don’t forget to send them over to muskreads@inverse.com.',
+    'logout',
+    'Watch on YouTube',
+    'ADVERT',
+    'Share via',
+    'Copy link',
+    'If you read this far, tweet to the author to show them you care. Tweet a thanks',
+    'Learn to code for free. freeCodeCamp\'s' +
+    ' open source curriculum has helped more than 40,000 people get jobs as developers. Get started',
+    '____________________________________',
+    '.',
+    # '',
+]
+
+regex_removal_list = [
+    r"\n\d+\n",
+    r"Last modified on [^\n]+",
+    r"(Mon|Tue|Wed|Thu|Fri|Sat|Sun) \d{1,2} [^\n]+",
+    r"\d{1,2} (January|February|March|April|May|June|July|August|September|October|November|December) [^\n]+",
+    # r"",
+]
