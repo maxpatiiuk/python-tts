@@ -1,6 +1,7 @@
 import utilites
 
-voices_to_try = [5, 18, 34]  # leave empty to try all
+voices_to_try = []  # leave empty to try all
+# voices_to_try = [5, 18, 34]
 
 
 engine = utilites.get_speech_engine(use_default_voice=False)
@@ -14,10 +15,10 @@ def sample_voice(voice_id):
         return
 
     string = "Hello! I am voice number %i" % voice_id
-    string += """
-        Search Results. Featured snippet from the web. There is a built-in function called len() for getting the total
-        number of items in a list, tuple, arrays, dictionary, etc. The len() method takes an argument where you may
-        provide a list and it returns the length of the given list"""
+    # string += """
+    #     Search Results. Featured snippet from the web. There is a built-in function called len() for getting the total
+    #     number of items in a list, tuple, arrays, dictionary, etc. The len() method takes an argument where you may
+    #     provide a list and it returns the length of the given list"""
 
     engine.setProperty('voice', voices[voice_id].id)
     engine.say(string)

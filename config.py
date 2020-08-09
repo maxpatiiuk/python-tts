@@ -10,7 +10,6 @@ remove_unicode = True
 strip_html = True
 remove_similar_pages = True
 remove_repeated_lines = True
-add_dots_at_the_end_of_the_lines = True
 
 speaking_voice = 5  # run find_voice.py to find the voice you like
 speaking_rate = 400  # default is 200
