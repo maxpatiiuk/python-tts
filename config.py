@@ -33,6 +33,9 @@ removal_list = [
     'ADVERT',
     'Share via',
     'Copy link',
+    'Related Topics:',
+    'Subscribe to Visual Capitalist',
+    'Get your mind blown on a daily basis:',
     'If you read this far, tweet to the author to show them you care. Tweet a thanks',
     'Learn to code for free. freeCodeCamp\'s' +
     ' open source curriculum has helped more than 40,000 people get jobs as developers. Get started',
@@ -46,5 +49,6 @@ regex_removal_list = [
     r"Last modified on [^\n]+",
     r"(Mon|Tue|Wed|Thu|Fri|Sat|Sun) \d{1,2} [^\n]+",
     r"\d{1,2} (January|February|March|April|May|June|July|August|September|October|November|December) [^\n]+",
+    r"Image source and credits: [^\n]+",
     # r"",
 ]
