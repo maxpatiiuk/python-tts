@@ -37,8 +37,11 @@ removal_list = [
     'Subscribe to Visual Capitalist',
     'Get your mind blown on a daily basis:',
     'If you read this far, tweet to the author to show them you care. Tweet a thanks',
+    'Recommended Reading:',
+    'Sponsored Content',
     'Learn to code for free. freeCodeCamp\'s' +
     ' open source curriculum has helped more than 40,000 people get jobs as developers. Get started',
+    'Image for post',
     '____________________________________',
     '.',
     # '',

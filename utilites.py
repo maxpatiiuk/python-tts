@@ -2,12 +2,21 @@ import config
 import pyttsx3
 import re
 import time
+import sys
 from io import StringIO
 from html.parser import HTMLParser
 
 
 def get_raw_text():
-    with open(config.source_file_location, 'r') as file:
+
+    if len(sys.argv) > 1:
+        file_path  = sys.argv[1]
+    else:
+        file_path = config.source_file_location
+
+    print('Reading text from file: %s' % file_path)
+
+    with open(file_path, 'r') as file:
         return file.read()
 
 

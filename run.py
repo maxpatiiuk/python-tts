@@ -24,5 +24,4 @@ print('Done!')
 
 ending_time = utilites.get_current_time()
 
-print(ending_time, starting_time)
 print('Duration: %ds' % (ending_time - starting_time))
