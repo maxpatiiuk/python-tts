@@ -9,6 +9,9 @@ from html.parser import HTMLParser
 
 def get_raw_text():
 
+    if not sys.stdin.isatty():
+        return sys.stdin.read()
+
     if len(sys.argv) > 1:
         file_path  = sys.argv[1]
     else:
