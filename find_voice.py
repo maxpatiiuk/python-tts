@@ -15,7 +15,6 @@ def sample_voice(voice_id):
         print('Voice number %i is not found on your system' % voice_id)
         return
 
-    # string = "Hello! I am voice number %i" % voice_id
     # string += """
     #     Search Results. Featured snippet from the web. There is a built-in function called len() for getting the total
     #     number of items in a list, tuple, arrays, dictionary, etc. The len() method takes an argument where you may
@@ -31,6 +30,7 @@ Personalize the pitch of your selected voice, up to 20 semitones more or less fr
 
 Text and SSML support
 Customize your speech with SSML tags that allow you to add pauses, numbers, date and time formatting, and other pronunciation instructions."""
+    string = "Hello! I am voice number %i" % voice_id
 
     engine.setProperty('voice', voices[voice_id].id)
     engine.say(string)
