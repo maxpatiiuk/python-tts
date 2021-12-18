@@ -12,7 +12,7 @@ remove_similar_pages = True
 remove_repeated_lines = True
 
 speaking_voice = 5  # run find_voice.py to find the voice you like
-speaking_rate = 400  # default is 200
+speaking_rate = 300  # default is 200
 #speaking_rate = 350  # default is 200
 speaking_volume = 1.0  # default is 1.0. the range of possible values: [0.0,1.0]
 
@@ -65,7 +65,21 @@ removal_list = [
     'Share this:',
     'Share',
     'KEY FACT',
-
+    'newsletter promo',
+    'Sign up for Scientific American’s free newsletters. Sign Up',
+    'ADVERTISEMENT',
+    'This is an opinion and analysis article; the views expressed by ' +
+    'the author or authors are not necessarily those of Scientific American.',
+    '(Summary of changes)',
+    'Merge made by recursive.',
+    'Credit: Getty Images',
+    'Source',
+    'Alexandru Paduraru',
+    'Share on LinkedIn',
+    'Calendar Icon',
+    'Source: Bloomberg',
+    'Sign Up',
+    
     # '',
 ]
 
