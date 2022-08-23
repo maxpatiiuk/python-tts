@@ -1,6 +1,6 @@
 # Python TTS
 
-> This project is now archived in favor of [tts-reader](https://github.com/maxxxxxdlp/tts-reader)
+> This project is now archived in favor of [tts-reader](https://github.com/maxpatiiuk/tts-reader)
 
 This project formats txt file and uses [pyttsx3](https://pypi.org/project/pyttsx3/) to convert it to an `.mp3` file.
 
