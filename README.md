@@ -1,4 +1,7 @@
 # Python TTS
+
+> This project is now archived in favor of [tts-reader](https://github.com/maxxxxxdlp/tts-reader)
+
 This project formats txt file and uses [pyttsx3](https://pypi.org/project/pyttsx3/) to convert it to an `.mp3` file.
 
 The idea behind this tool is to have a TXT file where the user would put web pages in read mode and other text-based information separated by `...` or other separation string you specify.

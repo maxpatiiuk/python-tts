@@ -1,6 +1,6 @@
-source_file_location = '/Users/maxxxxxdlp/site/git/private-dotfiles/notes/TEMP'
+source_file_location = '/Users/maxpatiiuk/site/git/private-dotfiles/notes/TEMP'
 destination_txt_file_location = 'result.txt'
-destination_mp3_file_location = '/Users/maxxxxxdlp/Downloads/result.mp3'
+destination_mp3_file_location = '/Users/maxpatiiuk/Downloads/result.mp3'
 
 line_separator = '\n'
 initial_page_separator = '...'
